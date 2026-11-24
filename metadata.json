@@ -1,0 +1,8 @@
+{
+  "name": "EstudoTeca",
+  "description": "Plataforma de estudos para Ensino Médio e ENEM com Tutor IA, cronograma, simulados e correção de redação.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

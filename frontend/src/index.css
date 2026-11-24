@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Ocultar barra superior e avisos do Google Translate */
+.goog-te-banner-frame.skiptranslate,
+.goog-te-gadget-icon,
+#google_translate_element {
+    display: none !important;
+}
+
+html, body {
+    top: 0px !important;
+    overflow-x: clip;
+}
+
+.goog-tooltip, 
+.goog-tooltip:hover {
+    display: none !important;
+}
+
+.goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Evita que o iframe do tradutor altere o topo do site */
+iframe.skiptranslate {
+    display: none !important;
+}
